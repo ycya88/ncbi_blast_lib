@@ -1,2 +1,5 @@
 # ncbi_blast_lib
-lib for BLAST
+
+NCBI BLAST lib
+
+https://github.com/opslabhqx/lddc
