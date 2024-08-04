@@ -6,7 +6,7 @@ DIR="."
 for file in "$DIR"/*; do
   if [ -f "$file" ]; then
     filename=$(basename "$file")
-    echo "Running: lddc $filename lib_$filename"
-    lddc "$filename" "lib_$filename"
+    echo "Running: lddc $filename $filename_lib"
+    lddc "$filename" "$filename_lib"
   fi
 done
