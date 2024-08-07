@@ -5,6 +5,7 @@ help:
 	@echo "Usage: make [TARGET]"
 	@echo "Targets:"
 	@echo "files                        Show files"
+	@echo "s3-sync                      Admin s3 sync"
 
 files:
 	@find . -path './.git' -prune -o -ls > FILES
